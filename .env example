@@ -1,0 +1,16 @@
+# PORT SERVER
+PORT=null
+
+#SQL SERVER DATA
+
+SERVER=null # Se suele usar como HOST, pero sql server, pide nombre server...
+DATABASE=null
+USER=null
+PASSWORD=null
+# POOL
+MAX=10
+MIN=0
+IDLETIMEOUTMILLIS=30000
+#OPTIONS
+ENCRYPT=true  # for azure
+TRUSTSERVERCERTIFICATE=true # change to true for local dev / self-signed certs
